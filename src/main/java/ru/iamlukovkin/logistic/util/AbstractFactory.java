@@ -1,4 +1,5 @@
 package ru.iamlukovkin.logistic.util;
 
-public interface AbstractFactory {
+public interface AbstractFactory<Entity> {
+    Entity create();
 }
